@@ -1,2 +1,8 @@
--- SORT EMPLOYEES BY AGE DESCENDING
-SELECT * FROM EmployeeDemographics ORDER BY Age DESC;
+--Delete Query
+--Delete David's Record
+DELETE FROM Employees
+WHERE EmployeeID = 104;
+
+--View remaining records aftrer deletion
+SELECT * FROM Employees;
+
